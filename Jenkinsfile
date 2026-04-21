@@ -7,7 +7,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {
- git 'https://github.com/Adhithya-r2005/demoapp.git'
+ git 'https://github.com/Adhithya-r2005/demo-app.git'
  }
  }
  stage('Build') {
